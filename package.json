@@ -1,0 +1,23 @@
+{
+  "name": "Growtopiahttps",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "dev": "npx tsc && node dist/index.js",
+    "start": "node dist/index.js",
+    "setup": "npm install --save-dev @types/express && npm install fs path express",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "warfdev (saitan.wtf#0)",
+  "license": "ISC",
+  "description": "A Growtopia private server HTTP package written in TypeScript.",
+  "dependencies": {
+    "express": "^5.1.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1"
+  }
+}

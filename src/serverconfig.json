@@ -1,0 +1,8 @@
+{
+    "_comment": "Edit according to your server information. ",
+
+    "bindIP": "127.0.0.1",
+    "port": "17091",
+    "http_port": 80,
+    "maint": "Server undergoing maintenance"
+}
